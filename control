@@ -3,7 +3,7 @@ Name: HoloPane
 Depends: mobilesubstrate, preferenceloader
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Enable Picture in Picture on all devices running iOS 12!
+Description: Enable Picture in Picture on all iDevices running iOS 12!
 Maintainer: WDKF <kevondwf.business@outlook.com>
 Author: WDKF <kevondwf.business@outlook.com>
 Section: Tweaks
