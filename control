@@ -1,7 +1,7 @@
 Package: me.wdkf.holopane
 Name: HoloPane
 Depends: mobilesubstrate, preferenceloader
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Enable Picture in Picture on all iDevices running iOS 12!
 Maintainer: WDKF <kevondwf.business@outlook.com>
