@@ -16,9 +16,9 @@ extern "C" Boolean MGGetBoolAnswer(CFStringRef);
 {
 	NSString *settingsPath = @"/var/mobile/Library/Preferences/me.wdkf.holopane.plist";
 	NSMutableDictionary *prefs = [[NSMutableDictionary alloc] initWithContentsOfFile:settingsPath];
-	NSNumber* isTweakEnabled = [prefs objectForKey:@"Switch_Tweak"];
+	BOOL isTweakEnabled = [[prefs objectForKey:@"Switch_Tweak"] boolValue];
 		
-	if ([isTweakEnabled boolValue] == YES)
+	if (isTweakEnabled)
 	{
 		%init(PIP);
 	}

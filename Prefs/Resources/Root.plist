@@ -39,8 +39,11 @@
 			<string>PSGroupCell</string>
 			<key>footerText</key>
 			<string>
-HoloPane - Version 1.0.0
-© 2019 W. D. K. Fernando (WDKF) - All rights reserved</string>
+Acknowledgements:
+Andrew Wiik (LittleX) and Duraid Abdul (Neptune)
+
+HoloPane - Version 1.0.2
+© 2019 W. D. K. Fernando (WDKF)</string>
 			<key>isStaticText</key>
 			<true/>
 		</dict>
@@ -62,7 +65,7 @@ HoloPane - Version 1.0.0
 			<key>icon</key>
 			<string>PayPalIcon.png</string>
 			<key>label</key>
-			<string>Donate (PayPal)</string>
+            <string>Support me :) (PayPal)</string>
 		</dict>
 	</array>
 	<key>title</key>
